@@ -1,0 +1,16 @@
+.contact{
+    color: #B2C3E6;
+    padding: 40px;
+    justify-content: center;
+    align-content: center;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.contact h2{
+    font-size: xx-large;
+}
+
+ul{
+    margin: 20px 50px;
+}

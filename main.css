@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #0E182F;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #13203F;
+    color: white;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.bar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.bar .menu {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+
+.bar .menu li {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+header {
+    justify-content: center;
+    background-color: #192A51;
+    padding: 120px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+
+header h1 {
+    font-size: 3rem;
+    margin: 0;
+    font-weight: 400;
+}
+
+.projects {
+    padding: 40px;
+    justify-content: center;
+    align-content: center;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.projects h2 {
+    color: #E0E7F5;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.card {
+    flex: 1 1 calc(25% - 20px);
+    max-width: calc(33% - 20px);
+    min-width: calc(33% - 20px);
+    background: #22386D;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.2s ease-in-out;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: calc(50%);
+    object-fit: cover;
+}
+
+.card h3 {
+    color: #B2C3E6;
+    font-size: 1.5rem;
+    margin: 10px 20px;
+    font-weight: normal;
+}
+
+.card p {
+    font-size: 1rem;
+    color: rgb(177, 177, 177);
+    margin: 10px 20px;
+    flex-grow: 1;
+    justify-items: auto;
+    text-justify: inter-word;
+    overflow: hidden;
+    display: block;
+    word-break: break-word;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
