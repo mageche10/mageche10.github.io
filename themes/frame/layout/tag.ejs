@@ -1,0 +1,16 @@
+<div id="tag">
+  <% if(is_tag()){ %>
+
+    <p class="tag-title">
+      Posts about <%=page.tag%>
+    </p>
+    <%- partial('partials/post_list') %>
+
+  <% }else{ %>
+
+    <p class="tag-title">/ tags /</p>
+    <%- partial('partials/tag_cloud') %>
+    
+  <% } %>
+
+</div>
