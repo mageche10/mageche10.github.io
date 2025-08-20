@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: mageche's home
-subtitle: ''
+title: Mario Maguilla
+subtitle: 'A personal blog about technology, programming, and engineering'
 description: ''
 keywords: [tech, developer, physics, math]
 author: Mario Maguilla
@@ -13,7 +13,7 @@ timezone: 'Europe/Madrid'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://mageche10.github.io/
 permalink: :year/:month/:title/
 permalink_defaults:
 pretty_urls:

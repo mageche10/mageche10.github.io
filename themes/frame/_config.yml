@@ -29,8 +29,8 @@ date_format: MMM D, YYYY
 
 # profile
 profile:
-  title: Hi, this is Mario Maguilla.
-  body: Currently studying Aerospace and Physics Engineering at the Polithecnical University of Catalonia. I am passionate about technology, programming, planes, and space exploration. This blog is a collection of my thoughts, projects, and experiences.
+  title: Welcome! I'm Mario.
+  body: I'm currently studying Aerospace and Physics Engineering at CFIS - UPC. Beyond my academic path, I'm passionate about programming, technology, airplanes, and space exploration. This blog is where I share my personal projects, experiments, and reflections along the way.
   image: /images/profile_cover.png
 
   links:
