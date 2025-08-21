@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /tags/
+Sitemap: https://mageche10.github.io/sitemap.xml
+Sitemap: https://mageche10.github.io/sitemap.txt

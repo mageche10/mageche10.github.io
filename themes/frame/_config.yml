@@ -37,6 +37,7 @@ profile:
   links:
     Posts: /archives/
     About: /about/
+    GitHub: https://github.com/mageche10
 
 # footer
 footer:

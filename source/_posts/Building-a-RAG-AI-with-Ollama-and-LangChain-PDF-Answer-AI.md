@@ -1,8 +1,8 @@
 ---
 title: Building a RAG AI with Ollama and LangChain - PDF Answer AI
-date: 2025-08-20 14:05:06
-tag: [Machine Learning]
-categories: [projects]
+description: Learn how to build a Retrieval-Augmented Generation (RAG) AI pipeline using Ollama, LangChain, and ChromaDB to query and analyze your own PDF documents locally with Node.js. Step-by-step guide for students, developers, and AI enthusiasts.
+date: 2025-08-3 14:05:06
+tags: [Machine Learning]
 featured_image: /images/RAG_and_LLM_architecture.png
 ---
 Recently, I was working on a small procedural generator where I needed AI-generated descriptions. With no prior experience in the field, I decided to dive deep into [LLM (Large Language Models)](https://en.wikipedia.org/wiki/Large_language_model) and figure out how to run them locally. On top of that, I wanted the responses to be based on information I had stored inside a PDF. 
@@ -31,7 +31,7 @@ Although it's not a very advanced topic, you will need the following knowledge:
 
 Let's have a look at what we need to built:
 
-![](/images/RAG_and_LLM_architecture.png)
+![Diagram with the pipeline workflow describing all the tools used for the program](/images/RAG_and_LLM_architecture.png)
 
 1. Extract the data from the PDF and convert it into an AI-friendly language (with a specific Ollama model).
 2. Store this data to retrieve it later.
