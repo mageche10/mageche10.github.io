@@ -13,6 +13,7 @@ menu:
   Home: /
   Archive: /archives/
   Projects: /categories/projects/
+  About me: /about/
 
 # stylesheets loaded in the <head>
 stylesheets:
@@ -30,11 +31,12 @@ date_format: MMM D, YYYY
 # profile
 profile:
   title: Welcome! I'm Mario.
-  body: I'm currently studying Aerospace and Physics Engineering at CFIS - UPC. Beyond my academic path, I'm passionate about programming, technology, airplanes, and space exploration. This blog is where I share my personal projects, experiments, and reflections along the way.
+  body: I'm currently studying Aerospace and Physics Engineering at CFIS - UPC. Beyond my science-oriented academic path, I'm passionate about programming and developing. This blog is where I share my personal projects, experiments, and reflections along the way.
   image: /images/profile_cover.png
 
   links:
-    Archive: /archives/
+    Posts: /archives/
+    About: /about/
 
 # footer
 footer:
