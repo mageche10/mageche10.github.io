@@ -196,6 +196,11 @@ commander@^5.1.0:
   resolved "https://registry.npmjs.org/commander/-/commander-5.1.0.tgz"
   integrity sha512-P0CysNDQ7rtVw4QIQtm+MRxV66vKFSvlsQvGYXZWR3qFU0jlMKHZZZgw8e+8DSah4UDKMqnknRDQz+xuQXQ/Zg==
 
+commander@^8.3.0:
+  version "8.3.0"
+  resolved "https://registry.npmjs.org/commander/-/commander-8.3.0.tgz"
+  integrity sha512-OkTL9umf+He2DZkUq8f8J9of7yL6RJKI24dVITBmNfZBmri9zYZQrKkuXiKhyfPSu8tUhnVBB1iKXevvnlR4Ww==
+
 compressible@~2.0.18:
   version "2.0.18"
   resolved "https://registry.npmjs.org/compressible/-/compressible-2.0.18.tgz"
@@ -693,6 +698,15 @@ hexo-log@^4.0.1:
   dependencies:
     picocolors "^1.0.0"
 
+hexo-math@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.npmjs.org/hexo-math/-/hexo-math-5.0.0.tgz"
+  integrity sha512-Yz7sHMc5BQPWC7Y4NL+I+eWB39i3oPnZjpRFeql7Ok7g8tGEOSFZkK5ImqMPNvtGZxbwJt8ks8NqJwJMb0YnXg==
+  dependencies:
+    hexo-util "^3.3.0"
+    katex "^0.16.10"
+    mathjax "^3.2.2"
+
 hexo-pagination@3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/hexo-pagination/-/hexo-pagination-3.0.0.tgz"
@@ -1015,6 +1029,13 @@ jsonparse@^1.3.1:
   resolved "https://registry.npmjs.org/jsonparse/-/jsonparse-1.3.1.tgz"
   integrity sha512-POQXvpdL69+CluYsillJ7SUhKvytYjW9vG/GKpnf+xP8UWgYEM/RaMzHHofbALDiKbbP1W8UEYmgGl39WkPZsg==
 
+katex@^0.16.10:
+  version "0.16.22"
+  resolved "https://registry.npmjs.org/katex/-/katex-0.16.22.tgz"
+  integrity sha512-XCHRdUw4lf3SKBaJe4EvgqIuWwkPSo9XoeO8GjQW94Bp7TWv9hNhzZjZ+OH9yf1UmLygb7DIT5GSFQiyt16zYg==
+  dependencies:
+    commander "^8.3.0"
+
 lower-case@^2.0.2:
   version "2.0.2"
   resolved "https://registry.npmjs.org/lower-case/-/lower-case-2.0.2.tgz"
@@ -1036,6 +1057,11 @@ math-intrinsics@^1.1.0:
   version "1.1.0"
   resolved "https://registry.npmjs.org/math-intrinsics/-/math-intrinsics-1.1.0.tgz"
   integrity sha512-/IXtbwEk5HTPyEwyKX6hGkYXxM9nbj64B+ilVJnC/R6B0pH5G4V3b0pVbL7DBj4tkhBAppbQUlf6F6Xl9LHu1g==
+
+mathjax@^3.2.2:
+  version "3.2.2"
+  resolved "https://registry.npmjs.org/mathjax/-/mathjax-3.2.2.tgz"
+  integrity sha512-Bt+SSVU8eBG27zChVewOicYs7Xsdt40qm4+UpHyX7k0/O9NliPc+x77k1/FEsPsjKPZGJvtRZM1vO+geW0OhGw==
 
 micro-memoize@^4.1.2:
   version "4.1.3"

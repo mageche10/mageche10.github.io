@@ -11,7 +11,7 @@ logo_image:
 
 menu:
   Home: /
-  Archive: /archives/
+  Articles: /archives/
   Projects: /categories/projects/
   About me: /about/
 
@@ -31,12 +31,12 @@ date_format: MMM D, YYYY
 # profile
 profile:
   title: Welcome! I'm Mario.
-  body: I'm currently studying Aerospace and Physics Engineering at CFIS - UPC. Beyond my science-oriented academic path, I'm passionate about programming and developing. This blog is where I share my personal projects, experiments, and reflections along the way.
+  body: I'm currently studying Aerospace and Physics Engineering at CFIS - UPC. Beyond my science-oriented academic path, I'm passionate about programming and developing. Here I will share my personal projects and experiments.
   image: /images/profile_cover.png
 
   links:
     Posts: /archives/
-    About: /about/
+    About me: /about/
     GitHub: https://github.com/mageche10
 
 # footer
@@ -57,7 +57,7 @@ color_mode: default
 
 # mathjax setting
 # note: need to install the hexo plugin for math: https://github.com/hexojs/hexo-math
-mathjax_enable: false
+mathjax_enable: true
 
 # comments: support disqus and valine
 valine: # valine setup guide: https://valine.js.org/quickstart.html

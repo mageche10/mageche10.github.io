@@ -11,11 +11,35 @@
         <div class="profile-body">
             <%=theme.profile.body%>
         </div>
-        <% Object.keys(theme.profile.links).forEach(key => { %>
-            <div class="profile-link">
-                <a href="<%= url_for(theme.profile.links[key])%>"><%=key%></a> 
-            </div>           
-        <% }); %>
+        
+
+    </div>    
+</div>
+
+<div class="post-content">
+    <h3>Featured articles</h3>
+    <div class="post-list-item">
+        <div class="post-title">
+            <a href="/2025/Building-a-RAG-AI-with-Ollama-and-LangChain-PDF-Answer-AI/">
+                Building a RAG AI with Ollama and LangChain - PDF Answer AI
+            </a>
+        </div>
     </div>
-    
+    <div class="post-list-item">
+        <div class="post-title">
+            <a href="/2025/Lyapunov-Orbits-around-Lagrange-Points-Theory-Simulation-and-MATLAB-Implementation/">
+                Lyapunov Orbits around Lagrange Points: Theory, Simulation and MATLAB Implementation
+            </a>
+        </div>
+    </div>
+
+    <h3>Links</h3>
+    <% Object.keys(theme.profile.links).forEach(key=> { %>
+            <div class="profile-link">
+                <a href="<%= url_for(theme.profile.links[key])%>">
+                    <%=key%>
+                </a>
+            </div>
+            <% }); %>
+
 </div>

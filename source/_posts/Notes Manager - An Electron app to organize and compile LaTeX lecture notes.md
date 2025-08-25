@@ -2,8 +2,8 @@
 title: Notes Manager - An Electron app to organize and compile LaTeX lecture notes
 description: Discover how I built a Windows desktop app with Electron to organize, edit, and compile LaTeX lecture notes efficiently. Learn about its features, workflow, and code highlights for students and developers.
 date: 2025-08-21 14:06:30
-tags: [Desktop application]
-categories: [projects, productivity]
+tags: [Desktop application, productivity]
+categories: [projects]
 featured_image: /images/notes_hub_main.png
 ---
 
