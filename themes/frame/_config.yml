@@ -35,7 +35,7 @@ profile:
   image: /images/profile_cover.png
 
   links:
-    Posts: /archives/
+    Articles: /archives/
     About me: /about/
     GitHub: https://github.com/mageche10
 
@@ -44,6 +44,8 @@ footer:
   copyright_info:
     enable: true
     author: © Mario Maguilla 2025
+
+  email: mageche10@gmail.com
 
   powered_by: # Powered by Hexo & Frame
     enable: true

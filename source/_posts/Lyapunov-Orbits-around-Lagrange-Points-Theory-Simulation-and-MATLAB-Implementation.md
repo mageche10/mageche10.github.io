@@ -1,5 +1,6 @@
 ---
 title: 'Lyapunov Orbits around Lagrange Points: Theory, Simulation and MATLAB Implementation'
+description: Explore how Lyapunov orbits around Lagrange points work and learn how to simulate them in MATLAB. A blend of theory, orbital dynamics, and practical coding for space exploration.
 date: 2025-08-25 09:11:06
 tags: [MATLAB, Dynamic Systems]
 categories: [projects]

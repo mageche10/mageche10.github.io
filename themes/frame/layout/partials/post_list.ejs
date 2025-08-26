@@ -9,14 +9,23 @@
         <% last_year = cur_year; } %>
 
         <div class="post-list-item">
-            <div class="post-title">
-            <a href="<%- url_for(post.path) %>">
-                <% if (post.title) {%>
-                    <%= post.title %>
-                <% } else {%>
-                    *Untitled
-                <% } %>
-                </a> 
+            <div class="post-title-description">
+                <div class="post-title">
+                    <a href="<%- url_for(post.path) %>">
+                        <% if (post.title) {%>
+                            <%= post.title %>
+                                <% } else {%>
+                                    *Untitled
+                                    <% } %>
+                    </a>
+                </div>
+                <div class="post-description">
+                    <% if (post.description) {%>
+                        <%= post.description %>
+                    <% } else {%>
+                        *No description
+                    <% } %>
+                </div>
             </div>
             
             <span class="post-date"><%- date(post.date, theme.date_format) %></span>

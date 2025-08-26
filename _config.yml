@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Mario Maguilla
-subtitle: 'A personal blog about technology, programming, and engineering'
-description: ''
-keywords: [tech, developer, physics, math]
+title: Mario Maguilla - Aerospace, Physics & Tech Blog
+subtitle: "Technology, Science, Engineering & Aerospace Insights"
+description: 'Sharing programming, physics, math, and aerospace engineering projects and ideas, ranging from code tutorials to shows of how they are used in the real world.'
+keywords: [technology, programming, engineering, aerospace, physics, math, MATLAB, coding, AI]
 author: Mario Maguilla
 language: en
 timezone: 'Europe/Madrid'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://mageche10.github.io/
+url: https://mariomaguilla.com/
 permalink: :year/:title/
 permalink_defaults:
 pretty_urls:

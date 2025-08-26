@@ -10,7 +10,7 @@ I'm Mario, currently studying a double degree of **Aerospace Engineering and Phy
 
 - **Double Degree in Aerospace Engineering & Physics Engineering** (CFIS – UPC, Barcelona) 2024-2029. 
 - Winner of the [FME Datathon 2024](https://www.datathon.cat/) (Rookie category).
-- Graduated from high school (Ins Martí i Franquès) with honors 2022-2024.
+- Graduated from high school (Ins Antoni de Martí i Franquès, Tarragona) with honors 2022-2024.
 - Gold Medal in the Spain national stage of the [**Physics Olympiad**](https://rsef.es/olimpiada-espanola-de-fisica) 2024.  
 - Third place in the **Chemistry Olympiad** (local stage) 2024.
 
