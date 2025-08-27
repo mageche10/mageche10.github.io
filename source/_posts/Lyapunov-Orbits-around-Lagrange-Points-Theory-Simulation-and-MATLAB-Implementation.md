@@ -2,9 +2,9 @@
 title: 'Lyapunov Orbits around Lagrange Points: Theory, Simulation and MATLAB Implementation'
 description: Explore how Lyapunov orbits around Lagrange points work and learn how to simulate them in MATLAB. A blend of theory, orbital dynamics, and practical coding for space exploration.
 date: 2025-08-25 09:11:06
-tags: [MATLAB, Dynamic Systems]
+tags: [MATLAB, Physics]
 categories: [projects]
-featured_image: /images/Lagrange_Points.png
+featured_image: /images/LyapunovOrbitsSimulation/Lagrange_Points.png
 ---
 
 ## Introduction
@@ -35,7 +35,7 @@ $$x - \frac{(1-\mu)(x+\mu)}{(|x+\mu|)^3} - \frac{\mu (x- (1-\mu))}{|x - (1-\mu)|
 
 I'll explain this equation later. The following image shows a general diagram of the Lagrange Points and highlights the three unstable points we are studying.
 
-![A diagram representing the five Lagrange Points in the Earth-Sun CR3BP](/images/Lagrange_Points.png)
+![A diagram representing the five Lagrange Points in the Earth-Sun CR3BP](/images/LyapunovOrbitsSimulation/Lagrange_Points.png)
 
 ### Halo and Lissajous Orbits
 
@@ -76,7 +76,7 @@ To determine whether these points are unstable, we use the **linearization metho
 
 The Jacobian matrix for our system is:
 
-![Jacobian matrix of our nonlinear dynamic system](/images/Jacobian_Lagrange_stability.png)
+![Jacobian matrix of our nonlinear dynamic system](/images/LyapunovOrbitsSimulation/Jacobian_Lagrange_stability.png)
 
 By substituting the second derivatives for each Lagrange point and using MATLAB's *eig* command to find the [**eigenvalues**](https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors), we see that each point has at least one eigenvalue with a positive real part—confirming their instability.
 
@@ -164,7 +164,7 @@ res = fzero(f, dy0inicial)
 
 Once we've found a suitable initial vertical speed for a given position, we can run a full simulation and obtain an elliptical orbit around the L1 point (yellow star):
 
-![Simulation by MATLAB of a complete orbit around the L1 point](/images/full_simulation.png)
+![Simulation by MATLAB of a complete orbit around the L1 point](/images/LyapunovOrbitsSimulation/full_simulation.png)
 
 ### Correlation Between Amplitude and Initial Velocity
 
@@ -174,7 +174,7 @@ $$ \dot{y}_0 = \alpha k \omega $$
 
 By performing a linear regression on the numerical values, we can estimate \\(k\omega\\). In this case, it's about -12.17, which is close to the value from the linear approximation.
 
-![Linear regression between some initial amplitudes and their required initial speed](/images/Linear_regresion.png)
+![Linear regression between some initial amplitudes and their required initial speed](/images/LyapunovOrbitsSimulation/Linear_regresion.png)
 
 ## Conclusions
 
