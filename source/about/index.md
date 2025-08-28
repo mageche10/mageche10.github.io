@@ -4,9 +4,9 @@ date: 2025-08-21 13:14:11
 ---
 ## Hello!
 
-I'm Mario, currently studying a double degree of **Aerospace Engineering and Physics** at [CFIS – UPC](https://cfis.upc.edu/) in Barcelona. Since I was a kid, I’ve been fascinated by computers; always building small projects, experimenting with code, and trying to understand how things work under the hood.
+I'm Mario, currently studying a double degree of **Aerospace Engineering and Physics Engineering** at [CFIS – UPC](https://cfis.upc.edu/) in Barcelona. Since I was a kid, I’ve been fascinated by computers; always building small projects, experimenting with code, and trying to understand how things work under the hood.
 
-## Academic Background
+## Academic Path
 
 - **Double Degree in Aerospace Engineering & Physics Engineering** (CFIS – UPC, Barcelona) 2024-2029. 
 - Winner of the [FME Datathon 2024](https://www.datathon.cat/) (Rookie category).
@@ -27,15 +27,12 @@ I'm Mario, currently studying a double degree of **Aerospace Engineering and Phy
 
 ## Beyond Academics
 
-Outside of studies and projects, in my free time I like:
- - Reading, mainly science fiction and fantasy.
- - Watching movies and series and playing videogames.
- - Traveling and hiking.
- - Baking, from cookies to elaborate cakes.
- - Board games, my favourite are [Twilight Imperium](https://boardgamegeek.com/boardgame/233078/twilight-imperium-fourth-edition) and [Through the Ages](https://boardgamegeek.com/boardgame/182028/through-the-ages-a-new-story-of-civilization).
+Outside of studies and projects, in my free time I like **reading** (mainly science fiction), **watching movies**, playing **video games**, **traveling**, **hiking**, **baking**, and playing **board games**.
 
 ## Connect
 
-- [GitHub](https://github.com/mageche10)
 - E-mail: [mageche10@gmail.com](mailto:mageche10@gmail.com)
-- [Download CV (PDF)](/files/Mario_Maguilla_CV.pdf)
+- [Linkedin](https://www.linkedin.com/in/mario-maguilla/)
+- [GitHub](https://github.com/mageche10)
+- [Download my CV (PDF)](/files/Mario_Maguilla_CV.pdf)
+
