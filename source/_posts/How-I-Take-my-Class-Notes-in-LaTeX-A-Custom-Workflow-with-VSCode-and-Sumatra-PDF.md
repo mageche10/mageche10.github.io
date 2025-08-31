@@ -7,7 +7,7 @@ tags: [Productivity, Latex]
 
 ## Why I Needed a Custom Setup
 
-When I started my university classes, I realised that taking notes by hand wasn't effective for me. I was left with a pile of papers covered in illegible scribbles that I rarely referred to later, so I researched and evaluated different solutions.
+When I started my university classes, I realized that taking notes by hand wasn't effective for me. I was left with a pile of papers covered in illegible scribbles that I rarely referred to later, so I researched and evaluated different solutions.
 
 I found [Gilles Castle's setup](https://castel.dev/post/lecture-notes-1/) for generating notes with LaTeX using the Vim text editor and custom snippets in a [Linux](https://www.linux.org/) environment very interesting. I set up a Linux **virtual machine** dedicated solely to note-taking. However, the performance was very poor on a virtual machine and there was a considerable keyboard input delay. A year later, I decided to build my own **Windows-based environment** for taking notes with [**LaTeX**](https://www.latex-project.org/). Check out an example of my notes [here](#What-My-Notes-Look-Like).
 
@@ -16,7 +16,7 @@ Join me in setting up a fully functional LaTeX environment from scratch, where e
 ## The Big Picture
 
 Here's the main idea:
-1. **Open** the files from [my custom application](/2025/Notes%20Manager%20-%20An%20Electron%20app%20to%20organize%20and%20compile%20LaTeX%20lecture%20notes/) where I have all my documents organized.
+1. **Open** the files from [my custom application](/2025/Notes%20Manager%20-%20An%20Electron%20app%20to%20organize%20and%20compile%20LaTeX%20lecture%20notes/), where I have all my documents organized.
 2. **Edit** notes in class as you go with a customized version of [**VS Code**](https://code.visualstudio.com/).
 3. **Compile** the *.tex* files using a **local Latex distribution** (e.g., TeX Live or MiKTex).
 4. Use [Sumatra PDF](https://www.sumatrapdfreader.org/) to view the file.
@@ -41,7 +41,7 @@ You don't have to type this command in the terminal all the time. You can [creat
 
 ### Customizing Visual Studio Code
 
-When VS Code is open, the first thing we will do is install the [**Latex Workshop**](https://github.com/James-Yu/LaTeX-Workshop) extension. This will be the foundation for our environment. You can set up this extension and the programme itself in many different ways. Below, I will give an example of my choice. Try changing the settings to see what works best for you.
+When VS Code is open, the first thing we will do is install the [**LaTeX Workshop**](https://github.com/James-Yu/LaTeX-Workshop) extension. This will be the foundation for our environment. You can set up this extension and the program itself in many ways. Below, I will give an example of my choice. Try changing the settings to see what works best for you.
 
 In VS Code, press F1 and type *'Preferences Open User Settings (JSON)'*. This will open a *settings.json* file, allowing you to configure the editor to your liking. Alternatively, you can edit the settings from the Visual Studio UI if you find it easier. This is what my *settings.json* file looks like:
 
@@ -94,9 +94,9 @@ This is what my screen looks like while I edit my notes:
 
 This extension offers a variety of features and tools to assist with LaTeX writing. The most important ones are:
 - Tools for compiling documents with various LaTeX commands (*latexmk*, *pdflatex*, *bibtex*). 
-- Preview the result of mathematical environments by hovering the mouse over them or using the *Ctrl+Shift+M* shortcut in the maths panel.
+- Preview the result of mathematical environments by hovering the mouse over them or using the *Ctrl+Shift+M* shortcut in the math panel.
 - A complete symbol library in the left sidebar for quick insertion.
-- A variety of custom snippets with easy-to-remember names for inserting all kinds of environments. Here is a [list of all of them](https://github.com/James-Yu/LaTeX-Workshop/wiki/Snippets#Mathematical-font-commands)
+- A variety of custom snippets with easy-to-remember names for inserting all kinds of environments. Here is a [list of all of them](https://github.com/James-Yu/LaTeX-Workshop/wiki/Snippets#Mathematical-font-commands).
 
 Check out all the features in the [official documentation.](https://github.com/James-Yu/LaTeX-Workshop/wiki)
 
@@ -104,7 +104,7 @@ Check out all the features in the [official documentation.](https://github.com/J
 
 In addition to the snippets provided by the extension, I like to define my own frequently used snippets. For this purpose, I will use snippets from Visual Studio itself. To begin, press **F1** and search for *'Snippets:  Configure Snippets'* and select a LaTeX extension. You can then put all the active snippets in the *.tex* files there.
 
-Some of my favourites are:
+Some of my favorites are:
 
 ```json
 "Inline Math": {
@@ -170,7 +170,7 @@ Now, when you save a file or want to compile it explicitly, the recipe *Main fil
 
 ## LaTeX Structure: Modular Notes
 
-I use a modular **TeX** file system. Each subject has its own master file (*master.tex*), which defines the subject's general colour scheme and uses the LaTeX input command to insert the files containing the subject's specific content. I also use a preamble file (*preamble.tex*) to define some general commands. This is what a master file looks like:
+I use a modular **TeX** file system. Each subject has its own master file (*master.tex*), which defines the subject's general color scheme and uses the LaTeX input command to insert the files containing the subject's specific content. I also use a preamble file (*preamble.tex*) to define some general commands. This is what a master file looks like:
 
 ```tex
 \documentclass[a4paper, 11pt]{report}
@@ -197,7 +197,7 @@ In addition to the files for each subject, I have a single file called *'preambl
 - **Define new commands** or abbreviations.
 - **Create** a custom index or **table of contents**.
 
-One of the highlights of my notes is my use of the [tcolorbox package](https://osl.ugr.es/CTAN/macros/latex/contrib/tcolorbox/tcolorbox.pdf). In the preamble, I defined a series of environments for definitions or theorems, which I use across all subjects. The boxes in each subject will have a different colour, which is defined in *master.tex*. The code for my definition boxes is as follows:
+One of the highlights of my notes is my use of the [tcolorbox package](https://osl.ugr.es/CTAN/macros/latex/contrib/tcolorbox/tcolorbox.pdf). In the preamble, I defined a series of environments for definitions or theorems, which I use across all subjects. The boxes in each subject will have a different color, which is defined in *master.tex*. The code for my definition boxes is as follows:
 
 ```tex
 \newtcbtheorem[number within=section]{definition}{Definition}
