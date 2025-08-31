@@ -1,7 +1,7 @@
 ---
 title: 'Lyapunov Orbits around Lagrange Points: Theory, Simulation and MATLAB Implementation'
 description: Explore how Lyapunov orbits around Lagrange points work and learn how to simulate them in MATLAB. A blend of theory, orbital dynamics, and practical coding for space exploration.
-date: 2025-08-25 09:11:06
+date: 2025-08-11 09:11:06
 tags: [MATLAB, Physics]
 categories: [projects]
 featured_image: /images/LyapunovOrbitsSimulation/Lagrange_Points.png
@@ -165,6 +165,12 @@ res = fzero(f, dy0inicial)
 Once we've found a suitable initial vertical speed for a given position, we can run a full simulation and obtain an elliptical orbit around the L1 point (yellow star):
 
 ![Simulation by MATLAB of a complete orbit around the L1 point](/images/LyapunovOrbitsSimulation/full_simulation.png)
+
+If we let the simulation run for a longer period of time, we see that, after two or three ellipses, the particle starts a chaotic movement.
+
+![Longer MATLAB simulation with the same initial conditions to illustrate the systems' instability](/images/LyapunovOrbitsSimulation/chaotic_simulation.png)
+
+MATLAB only works with a maximum of 16 decimals of accuracy. Even with this little error, the particle starts moving unpredictably. This phenomenon illustrates the chaotic nature of the dynamic system and its instability. In the real world, the satellites using these orbits must be corrected by importing energy to the system (little engines, for example).
 
 ### Correlation Between Amplitude and Initial Velocity
 

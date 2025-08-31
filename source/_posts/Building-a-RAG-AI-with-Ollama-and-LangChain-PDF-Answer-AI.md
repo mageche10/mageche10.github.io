@@ -1,7 +1,7 @@
 ---
 title: Building a RAG AI with Ollama and LangChain - PDF Answer AI
 description: Learn how to build a Retrieval-Augmented Generation (RAG) AI pipeline using Ollama, LangChain, and ChromaDB to query and analyze your own PDF documents locally with Node.js. Step-by-step guide for students, developers, and AI enthusiasts.
-date: 2025-08-3 14:05:06
+date: 2025-07-3 14:05:06
 tags: [Machine Learning]
 featured_image: /images/RAG_and_LLM_architecture.png
 ---

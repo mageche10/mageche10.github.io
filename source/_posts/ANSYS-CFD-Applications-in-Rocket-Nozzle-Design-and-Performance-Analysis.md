@@ -1,7 +1,7 @@
 ---
 title: ANSYS Fluent Applications in Rocket Nozzle Design and Performance Analysis
 description: Discover how ANSYS Fluent and Computational Fluid Dynamics (CFD) are used to optimize rocket nozzle design, analyze supersonic flows, and compare geometries for maximum efficiency and thrust. Learn step-by-step modeling, meshing, simulation, and interpretation of results in aerospace engineering.
-date: 2025-08-28 16:56:33
+date: 2025-08-29 16:56:33
 tags: [ANSYS, Physics]
 categories: [projects]
 featured_image: /images/RocketNozzleDesign/simulations_comparision.png

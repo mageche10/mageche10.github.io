@@ -1,8 +1,8 @@
 ---
 title: Notes Manager - An Electron app to organize and compile LaTeX lecture notes
 description: Discover how I built a Windows desktop app with Electron to organize, edit, and compile LaTeX lecture notes efficiently. Learn about its features, workflow, and code highlights.
-date: 2025-08-21 14:06:30
-tags: [Desktop application, Productivity]
+date: 2025-07-21 14:06:30
+tags: [Desktop application, Productivity, Latex]
 categories: [projects]
 featured_image: /images/notes_hub_main.png
 ---
@@ -24,7 +24,7 @@ That’s why I decided to build my own **Notes Manager with Electron**:
 
 ## App Structure and Workflow
 
-As I mentioned, I take my notes with LaTeX, using a fully customized [**Visual Studio Code**](https://code.visualstudio.com/) environment. I have a full LaTeX distribution installed on my computer, ready to compile my files. To view the generated PDFs, I use [**Sumatra PDF**](https://www.sumatrapdfreader.org/free-pdf-reader), a lightweight PDF viewer. For editing images in my notes, I use [Inkscape](https://inkscape.org/).
+As I mentioned, I take my notes with LaTeX, using a fully [customized **Visual Studio Code** environment](/2025/How-I-Take-my-Class-Notes-in-LaTeX-A-Custom-Workflow-with-VSCode-and-Sumatra-PDF/). I have a full LaTeX distribution installed on my computer, ready to compile my files. To view the generated PDFs, I use [**Sumatra PDF**](https://www.sumatrapdfreader.org/free-pdf-reader), a lightweight PDF viewer. For editing images in my notes, I use [Inkscape](https://inkscape.org/).
 
 I’ve brought all these tools together in a centralized environment: my own Notes Manager app. To build it, I used [Electron](https://www.electronjs.org/), a framework for building desktop applications with JavaScript, HTML, and CSS. I also used [Bootstrap](https://getbootstrap.com/) to create a simple UI. When you open the app, you can see this interface:
 
@@ -218,6 +218,4 @@ window.rendererApi.newFigureShortcut(async () => {
 
 With this program, I have a fully customizable environment for managing my notes and I can work much more efficiently. Since I take my notes live during class, I need a fast workflow to keep up with the professor's explanations.
 
-Check out the full code in the [GitHub repo](https://github.com/mageche10/apunts-manager)
-
-Stay tuned for upcoming posts, where I’ll share a detailed tutorial on **how I take notes in LaTeX**.
+Check out the full code in the [GitHub repo](https://github.com/mageche10/apunts-manager) and see [how my note-taking environment is configured](/2025/How-I-Take-my-Class-Notes-in-LaTeX-A-Custom-Workflow-with-VSCode-and-Sumatra-PDF/).
