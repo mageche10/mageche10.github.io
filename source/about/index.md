@@ -4,7 +4,7 @@ date: 2025-08-21 13:14:11
 ---
 ## Hello!
 
-I'm Mario, currently studying a double degree of **Aerospace Engineering and Physics Engineering** at [CFIS – UPC](https://cfis.upc.edu/) in Barcelona. Since I was a kid, I’ve been fascinated by computers; always building small projects, experimenting with code, and trying to understand how things work under the hood.
+I'm Mario, currently studying a double degree in **Aerospace Engineering and Physics Engineering** at [CFIS – UPC](https://cfis.upc.edu/) in Barcelona. Since I was a kid, I’ve been fascinated by computers; always building small projects, experimenting with code, and trying to understand how things work under the hood.
 
 ## Academic Path
 

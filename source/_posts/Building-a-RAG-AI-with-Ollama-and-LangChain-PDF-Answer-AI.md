@@ -164,3 +164,5 @@ if (i > 0) {
 This setup is a simple but powerful way to give your AI access to your own documents while keeping everything private and local. Moreover, after some testing, I can say that the results are pretty solid, even with the smaller version models.
 
 You now have the building blocks for a RAG pipeline with Node.js, Ollama, LangChain, and ChromaDB. From here, you can expand it into a full app — maybe a chatbot, a document assistant, or even part of a larger system.
+
+Chek out my other post about **Machine Learning**: [Applying Reinforcment Learning to Prisoner's Dilema](2025/Applying-Reinforcment-Learning-to-Prisoner-Dilema-with-Python/).
